@@ -1,0 +1,144 @@
+
+.form--contact,
+.form--reclamos {
+    width: 90%;
+    max-width: 70rem;
+    background-color: var(--form-bg, var(--gray-bg));
+    padding: 2rem;
+    border-radius: 1.2rem;
+    margin: 2rem auto;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form--reclamos {
+    --form-bg: #fff;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.05);
+}
+
+.form__title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-text);
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.form__fieldset {
+    margin-top: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.6rem;
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.form__legend {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    padding: 0 0.5rem;
+    background-color: var(--gray-bg);
+    border-left: 0.4rem solid var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.form__label {
+    margin-bottom: 0.5rem;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+.form__input,
+.form__textarea,
+.form__select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--input-border, #ccc);
+    border-radius: 0.6rem;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form__select {
+    padding: 0.75rem 2.5rem 0.75rem 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 3rem;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='16' height='16' fill='black' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+}
+
+.form__textarea {
+    resize: none;
+    min-height: 120px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.form__input:focus,
+.form__textarea:focus,
+.form__select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(70, 44, 237, 0.2);
+}
+
+.form__footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.form__disclaimer {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+    margin-top: 1rem;
+}
+
+.input-error {
+  border-color: #ff4444 !important;
+  box-shadow: 0 0 0 1px #ff4444 !important;
+  background-color: #fff9f9;
+}
+
+.input-success {
+  border-color: #00C851 !important;
+  box-shadow: 0 0 0 1px #00C851 !important;
+  background-color: #f9fff9;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.reclamo-details {
+  line-height: 1.6;
+}
+
+.descripcion-box {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+

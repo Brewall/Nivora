@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Historia - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link header__nav-link--active">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link header__dropdown-link--active">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--historia">
+        <section class="hero hero--historia">
+            <div class="hero__content">
+                <h1 class="hero__title">Nuestra Historia</h1>
+                <p class="hero__subtitle">Más de 30 años formando líderes en Arequipa</p>
+                <div class="hero__cta">
+                    <a href="#nuestros-origenes" class="btn btn--primary">Conoce nuestra trayectoria</a>
+                </div>
+            </div>
+            <div class="hero__overlay"></div>
+        </section>
+
+        <section id="nuestros-origenes" class="section section--origins">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Nuestros Inicios</h2>
+                    <p class="section__subtitle">La semilla de un gran proyecto educativo</p>
+                </div>
+                
+                <div class="history-timeline">
+                    <div class="history-timeline__item">
+                        <div class="history-timeline__year">1990</div>
+                        <div class="history-timeline__content">
+                            <h3 class="history-timeline__title">Fundación en el Centro de Arequipa</h3>
+                            <p class="history-timeline__text">Nace Nivora como una pequeña academia preparatoria en el histórico distrito de Yanahuara, con apenas 3 aulas y 50 estudiantes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="history-timeline__item">
+                        <div class="history-timeline__year">1995</div>
+                        <div class="history-timeline__content">
+                            <h3 class="history-timeline__title">Primera promoción de secundaria</h3>
+                            <p class="history-timeline__text">Graduamos nuestra primera promoción de 25 estudiantes, muchos de los cuales se convertirían en destacados profesionales arequipeños.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="history-timeline__item">
+                        <div class="history-timeline__year">2005</div>
+                        <div class="history-timeline__content">
+                            <h3 class="history-timeline__title">Traslado al Campus Actual</h3>
+                            <p class="history-timeline__text">Nos mudamos a nuestras modernas instalaciones en el distrito de Cayma, triplicando nuestra capacidad y oferta educativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--growth">
+            <div class="container">
+                <div class="growth-content">
+                    <div class="growth-content__image">
+                        <img src="./Img/img_colegio.jpg" alt="Antiguas instalaciones del colegio" class="growth-content__img">
+                    </div>
+                    <div class="growth-content__text">
+                        <h2 class="growth-content__title">Consolidación Educativa</h2>
+                        <p class="growth-content__paragraph">Durante la década del 2010, Nivora se posicionó como una de las instituciones educativas más innovadoras de Arequipa, siendo pioneros en:</p>
+                        <ul class="growth-content__list">
+                            <li class="growth-content__list-item">
+                                <i class="fas fa-check growth-content__icon"></i>
+                                <span>Implementación de tecnología educativa</span>
+                            </li>
+                            <li class="growth-content__list-item">
+                                <i class="fas fa-check growth-content__icon"></i>
+                                <span>Programas de intercambio internacional</span>
+                            </li>
+                            <li class="growth-content__list-item">
+                                <i class="fas fa-check growth-content__icon"></i>
+                                <span>Educación ambiental certificada</span>
+                            </li>
+                            <li class="growth-content__list-item">
+                                <i class="fas fa-check growth-content__icon"></i>
+                                <span>Metodologías de aprendizaje activo</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--achievements">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Logros Destacados</h2>
+                    <p class="section__subtitle">Hitos que nos enorgullecen</p>
+                </div>
+                
+                <div class="achievements-grid">
+                    <article class="achievement-card">
+                        <div class="achievement-card__icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="achievement-card__title">Premio a la Excelencia Educativa 2018</h3>
+                        <p class="achievement-card__text">Reconocidos por el Ministerio de Educación como la institución con mayor innovación pedagógica en la región sur.</p>
+                    </article>
+                    
+                    <article class="achievement-card">
+                        <div class="achievement-card__icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="achievement-card__title">100% de Ingreso a Universidades</h3>
+                        <p class="achievement-card__text">Todas nuestras promociones desde 2015 han ingresado a universidades nacionales e internacionales de prestigio.</p>
+                    </article>
+                    
+                    <article class="achievement-card">
+                        <div class="achievement-card__icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="achievement-card__title">Certificación Ambiental</h3>
+                        <p class="achievement-card__text">Primer colegio en Arequipa en recibir la certificación "Escuela Sostenible" por nuestras prácticas ecológicas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial testimonial--historia">
+            <div class="container">
+                <blockquote class="testimonial__quote">
+                    <p class="testimonial__text">"Lo que comenzó como un sueño en el corazón de Arequipa hoy es una realidad que trasciende generaciones. Nivora sigue fiel a su esencia: formar no solo buenos estudiantes, sino excelentes seres humanos."</p>
+                    <footer class="testimonial__author">Dra. Lucía Fernández, Fundadora</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="section section--cta">
+            <div class="container">
+                <div class="cta-box">
+                    <h2 class="cta-box__title">¿Quieres ser parte de nuestra historia?</h2>
+                    <p class="cta-box__text">Descubre cómo podemos escribir juntos el próximo capítulo</p>
+                    <div class="cta-box__buttons">
+                        <a href="./Contacto.html" class="btn btn--primary">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

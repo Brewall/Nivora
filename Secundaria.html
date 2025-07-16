@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Secundaria - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link header__nav-link--active">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link header__dropdown-link--active">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--secundaria">
+        <section class="hero hero--secundaria">
+            <h1 class="hero__title">Educación Secundaria</h1>
+            <p class="hero__subtitle">Preparación integral para el futuro con visión crítica y liderazgo</p>
+        </section>
+
+        <section class="secundaria-content">
+            <div class="content-block">
+                <h2 class="content-block__title">Nuestra Propuesta Educativa</h2>
+                <div class="content-block__body">
+                    <div class="content-block__inner">
+                    <p class="content-block__text">En los cinco años de educación secundaria (1° a 5° grado) formamos jóvenes competentes con habilidades académicas, digitales y socioemocionales para enfrentar los desafíos universitarios y profesionales del siglo XXI.</p>
+                    <img src="./Img/img_enfoquepedagogico_secundaria.png" alt="Estudiantes de secundaria trabajando" class="content-block__image content-block__image--right">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--highlight">
+                <h2 class="content-block__title">Nuestros Pilares Educativos</h2>
+                <div class="content-block__body">
+                    <div class="pillars-container">
+                        <div class="pillar">
+                            <h3 class="pillar__title">🔬 Excelencia Académica</h3>
+                            <p class="pillar__description">Programa riguroso en ciencias, humanidades y matemáticas con metodologías activas de aprendizaje.</p>
+                        </div>
+                        
+                        <div class="pillar">
+                            <h3 class="pillar__title">💻 Competencias Digitales</h3>
+                            <p class="pillar__description">Desarrollo de habilidades tecnológicas y pensamiento computacional desde 1° a 5° grado.</p>
+                        </div>
+                        
+                        <div class="pillar">
+                            <h3 class="pillar__title">🌍 Ciudadanía Global</h3>
+                            <p class="pillar__description">Formación en valores, conciencia ambiental y responsabilidad social.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Programa por Grados</h2>
+                <div class="content-block__body">
+                    <div class="grade-levels">
+                        <div class="grade-level">
+                            <h3 class="grade-level__title">1° y 2° de Secundaria</h3>
+                            <ul class="grade-features">
+                                <li>Transición asistida de primaria a secundaria</li>
+                                <li>Enfoque en hábitos de estudio y organización</li>
+                                <li>Introducción al método científico</li>
+                                <li>Desarrollo de competencias digitales básicas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="grade-level">
+                            <h3 class="grade-level__title">3° y 4° de Secundaria</h3>
+                            <ul class="grade-features">
+                                <li>Profundización en áreas académicas</li>
+                                <li>Proyectos interdisciplinarios STEAM</li>
+                                <li>Programa de orientación vocacional inicial</li>
+                                <li>Desarrollo de habilidades de investigación</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="grade-level">
+                            <h3 class="grade-level__title">5° de Secundaria</h3>
+                            <ul class="grade-features">
+                                <li>Preparación intensiva para la educación superior</li>
+                                <li>Simulacros de examen de admisión</li>
+                                <li>Proyecto de investigación aplicada</li>
+                                <li>Talleres de emprendimiento y finanzas personales</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--alternate">
+                <h2 class="content-block__title">Programas Especiales</h2>
+                <div class="content-block__body">
+                    <div class="special-programs">
+                        <div class="program">
+                            <h3 class="program__title">Liderazgo Estudiantil</h3>
+                            <p class="program__description">Formación de líderes a través del gobierno escolar, modelos de Naciones Unidas y proyectos sociales.</p>
+                        </div>
+                        
+                        <div class="program">
+                            <h3 class="program__title">Emprendimiento e Innovación</h3>
+                            <p class="program__description">Incubadora escolar de proyectos con mentoría profesional y ferias empresariales.</p>
+                        </div>
+                        
+                        <div class="program">
+                            <h3 class="program__title">Preparación Universitaria</h3>
+                            <p class="program__description">Asesoría personalizada, convenios con universidades y visitas a centros de educación superior.</p>
+                        </div>
+                        
+                        <div class="program">
+                            <h3 class="program__title">Arte y Cultura</h3>
+                            <p class="program__description">Talleres de teatro, música, danza y artes visuales con presentaciones públicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Actividades Clave</h2>
+                <div class="content-block__body">
+                    <div class="activities-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-time">Marzo</div>
+                            <div class="timeline-content">
+                                <h3>Feria Científica Interescolar</h3>
+                                <p>Presentación de proyectos de investigación de estudiantes de 1° a 5°.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-time">Julio</div>
+                            <div class="timeline-content">
+                                <h3>Modelo de Naciones Unidas</h3>
+                                <p>Simulacro diplomático para desarrollar habilidades de debate y negociación.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-time">Setiembre</div>
+                            <div class="timeline-content">
+                                <h3>Semana Vocacional</h3>
+                                <p>Charlas con profesionales y visitas a universidades para 4° y 5° año.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-time">Noviembre</div>
+                            <div class="timeline-content">
+                                <h3>Exposición de Proyectos Finales</h3>
+                                <p>Presentación pública de los trabajos de investigación de 5° año.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

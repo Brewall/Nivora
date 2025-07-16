@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #462CED;
+    --secondary-color: #D0F664;
+    --dark-text: #111827;
+    --light-text: #FFFFFF;
+    --gray-bg: #F9FAFB;
+    --border-color: #e0e4e9;
+    --error-color: #DC2626;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.text-primary {
+    color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+.text-secondary {
+    color: var(--secondary-color);
+}

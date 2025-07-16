@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Centro de Idiomas - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link header__nav-link--active">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link header__dropdown-link--active">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--idiomas">
+        <section class="hero hero--idiomas">
+            <h1 class="hero__title">Centro de Idiomas</h1>
+            <p class="hero__subtitle">Aprende inglés y otros idiomas con nosotros</p>
+        </section>
+
+        <section class="idiomas-section">
+            <div class="idiomas-container">
+                <h2 class="idiomas-container__title">Idiomas que ofrecemos:</h2>
+                <ul class="idiomas-list">
+                    <li class="idiomas-list__item">
+                        <div class="idioma-card">
+                            <div class="idioma-card__header idioma-card__header--ingles">
+                                <h3 class="idioma-card__title">
+                                    Inglés
+                                    <img
+                                    src="https://flagcdn.com/48x36/gb-eng.png"
+                                    srcset="https://flagcdn.com/96x72/gb-eng.png 2x,
+                                        https://flagcdn.com/144x108/gb-eng.png 3x"
+                                    width="48"
+                                    height="36"
+                                    alt="Inglaterra">
+                                </h3>
+                            </div>
+                            <div class="idioma-card__content">
+                                <p class="idioma-card__description">Desde básico hasta avanzado, preparación para exámenes internacionales</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="idiomas-list__item">
+                        <div class="idioma-card">
+                            <div class="idioma-card__header idioma-card__header--frances">
+                                <h3 class="idioma-card__title">
+                                    Francés 
+                                    <img
+                                    src="https://flagcdn.com/72x54/fr.png"
+                                    srcset="https://flagcdn.com/144x108/fr.png 2x,
+                                        https://flagcdn.com/216x162/fr.png 3x"
+                                    width="48"
+                                    height="36"
+                                    alt="Francia">
+                                </h3>
+                            </div>
+                            <div class="idioma-card__content">
+                                <p class="idioma-card__description">Aprende el idioma de la diplomacia y la cultura</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="idiomas-list__item">
+                        <div class="idioma-card">
+                            <div class="idioma-card__header idioma-card__header--portugues">
+                                <h3 class="idioma-card__title">
+                                    Portugués
+                                    <img
+                                    src="https://flagcdn.com/48x36/pt.png"
+                                    srcset="https://flagcdn.com/96x72/pt.png 2x,
+                                        https://flagcdn.com/144x108/pt.png 3x"
+                                    width="48"
+                                    height="36"
+                                    alt="Portugal">
+                                </h3>
+                            </div>
+                            <div class="idioma-card__content">
+                                <p class="idioma-card__description">Ideal para negocios y relaciones internacionales</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="idiomas-list__item">
+                        <div class="idioma-card">
+                            <div class="idioma-card__header idioma-card__header--italiano">
+                                <h3 class="idioma-card__title">
+                                    Italiano
+                                    <img
+                                    src="https://flagcdn.com/48x36/it.png"
+                                    srcset="https://flagcdn.com/96x72/it.png 2x,
+                                        https://flagcdn.com/144x108/it.png 3x"
+                                    width="48"
+                                    height="36"
+                                    alt="Italia">
+                                </h3>
+                            </div>
+                            <div class="idioma-card__content">
+                                <p class="idioma-card__description">Descubre la lengua del arte y la gastronomía</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="modalidades">
+            <div class="modalidades-container">
+                <h2 class="modalidades-container__title">Modalidades</h2>
+                <div class="modalidades-grid">
+                    <div class="modalidad-card" data-modalidad="presencial">
+                        <h3 class="modalidad-card__title">Presencial</h3>
+                        <p class="modalidad-card__description">Clases en nuestras modernas instalaciones</p>
+                        <button class="modalidad-card__button button button--primary">Más información</button>
+                    </div>
+                    <div class="modalidad-card" data-modalidad="virtual">
+                        <h3 class="modalidad-card__title">Virtual</h3>
+                        <p class="modalidad-card__description">Aprende desde cualquier lugar</p>
+                        <button class="modalidad-card__button button button--primary">Más información</button>
+                    </div>
+                    <div class="modalidad-card" data-modalidad="intensivo">
+                        <h3 class="modalidad-card__title">Intensivos</h3>
+                        <p class="modalidad-card__description">Cursos acelerados para resultados rápidos</p>
+                        <button class="modalidad-card__button button button--primary">Más información</button>
+                    </div>
+                    <div class="modalidad-card" data-modalidad="examenes">
+                        <h3 class="modalidad-card__title">Exámenes Internacionales</h3>
+                        <p class="modalidad-card__description">Preparación TOEFL, IELTS y más</p>
+                        <button class="modalidad-card__button button button--primary">Más información</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <div class="beneficios__container">
+                <h2 class="beneficios__title">¿Por qué estudiar con nosotros?</h2>
+                <ul class="beneficios__list">
+                    <li class="beneficios__item">Docentes certificados con amplia experiencia</li>
+                    <li class="beneficios__item">Material didáctico incluido</li>
+                    <li class="beneficios__item">Clases dinámicas y participativas</li>
+                    <li class="beneficios__item">Acceso a plataforma virtual y recursos exclusivos</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="testimonios" aria-labelledby="testimonios-estudiantes-title">
+            <div class="content-block">
+                <h2 id="testimonios-estudiantes-title" class="content-block__title">Lo que dicen nuestros estudiantes</h2>
+                
+                <div class="testimonios-grid">
+                    <div class="testimonio">
+                        <div class="testimonio__content">
+                            <p class="testimonio__text">"Gracias al centro de idiomas, logré certificar mi nivel B2 en inglés."</p>
+                            <div class="testimonio__author">
+                                <img src="./Img/img_female_1.png" alt="Estudiante Andrea Torres" class="testimonio__photo">
+                                <div>
+                                    <p class="testimonio__name">Andrea Torres</p>
+                                    <p class="testimonio__level">Certificación B2 Inglés</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonio">
+                        <div class="testimonio__content">
+                            <p class="testimonio__text">"Las clases de francés fueron dinámicas y prácticas. ¡Me encantó!"</p>
+                            <div class="testimonio__author">
+                                <img src="./Img/img_male_2.png" alt="Estudiante Luis Ramírez" class="testimonio__photo">
+                                <div>
+                                    <p class="testimonio__name">Luis Ramírez</p>
+                                    <p class="testimonio__level">Estudiante de Francés</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

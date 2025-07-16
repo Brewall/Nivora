@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Blog Educativo - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button> 
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link header__nav-link--active">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--blog">
+    <section class="blog-hero">
+        <h1 class="blog-hero__title">Blog Educativo</h1>
+        <p class="blog-hero__subtitle">Consejos y recursos para el aprendizaje</p>
+    </section>
+
+    <div class="blog-container">
+        <section class="blog-posts">
+        <article class="blog-post">
+            <div class="blog-post__content">
+            <h3 class="blog-post__title">¿Cómo ayudar a los niños a estudiar desde casa?</h3>
+            <p class="blog-post__excerpt">Te damos consejos prácticos para acompañar a tus hijos en su aprendizaje desde el hogar.</p>
+            <a href="#" class="blog-post__link button button--primary" data-modal="blog-modal">Leer más...</a>
+            </div>
+            <div class="blog-post__meta">
+            <span class="blog-post__author">Por María López</span>
+            <span class="blog-post__date">15 Mayo, 2025</span>
+            <span class="blog-post__category">Educación en casa</span>
+            </div>
+            <div class="blog-post__tags">
+            <span class="blog-post__tag">#Aprendizaje</span>
+            <span class="blog-post__tag">#Niños</span>
+            </div>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-post__content">
+            <h3 class="blog-post__title">Importancia del inglés en la educación básica</h3>
+            <p class="blog-post__excerpt">Conoce por qué el idioma inglés es clave desde las primeras etapas educativas.</p>
+            <a href="#" class="blog-post__link button button--primary">Leer más...</a>
+            </div>
+            <div class="blog-post__meta">
+            <span class="blog-post__author">Por Juan Pérez</span>
+            <span class="blog-post__date">10 Mayo, 2025</span>
+            <span class="blog-post__category">Idiomas</span>
+            </div>
+            <div class="blog-post__tags">
+            <span class="blog-post__tag">#Inglés</span>
+            <span class="blog-post__tag">#Educación</span>
+            </div>
+        </article>
+
+        <!--<div class="blog-pagination">
+            <a href="#" class="blog-pagination__link blog-pagination__link--active">1</a>
+            <a href="#" class="blog-pagination__link">2</a>
+            <a href="#" class="blog-pagination__link">3</a>
+            <a href="#" class="blog-pagination__link">Siguiente →</a>
+        </div>-->
+        </section>
+
+        <aside class="blog-sidebar">
+        <div class="blog-sidebar__section">
+            <h4 class="blog-sidebar__title">Buscar</h4>
+            <form class="blog-search">
+            <input type="text" class="blog-search__input" placeholder="Buscar...">
+            <button class="blog-search__button">🔍</button>
+            </form>
+        </div>
+
+        <div class="blog-sidebar__section">
+            <h4 class="blog-sidebar__title">Categorías</h4>
+            <ul class="blog-sidebar__list">
+                <li class="blog-sidebar__item">
+                    <a href="#" class="blog-sidebar__link" data-category="educación en casa">Educación en casa</a>
+                </li>
+                <li class="blog-sidebar__item">
+                    <a href="#" class="blog-sidebar__link" data-category="idiomas">Idiomas</a>
+                </li>
+                <li class="blog-sidebar__item">
+                    <a href="#" class="blog-sidebar__link" data-category="tecnología educativa">Tecnología educativa</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="blog-sidebar__section">
+            <h4 class="blog-sidebar__title">Entradas recientes</h4>
+            <ul class="blog-sidebar__list blog-sidebar__list--recent">
+                <li class="blog-sidebar__item">
+                    <a href="#" class="blog-sidebar__link"></a>
+                </li>
+                <li class="blog-sidebar__item">
+                    <a href="#" class="blog-sidebar__link"></a>
+                </li>
+            </ul>
+        </div>
+
+        <article class="blog-post" data-date="2025-05-15">
+            <span class="blog-post__category">Educación en casa</span>
+        </article>
+        </aside>
+    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

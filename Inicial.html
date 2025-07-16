@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Inicial - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link header__nav-link--active">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link header__dropdown-link--active">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--inicial">
+        <section class="hero hero--inicial">
+            <h1 class="hero__title">Educación Inicial</h1>
+            <p class="hero__subtitle">Etapa de descubrimiento y desarrollo a través del juego</p>
+        </section>
+
+        <section class="inicial-content">
+            <div class="content-block">
+                <h2 class="content-block__title">Nuestro Enfoque Educativo</h2>
+                <div class="content-block__body">
+                    <div class="content-block__inner">
+                    <p class="content-block__text">En nuestra institución, la Educación Inicial (de 3 a 5 años) se concibe como un espacio donde los niños descubren el mundo que les rodea a través de experiencias significativas que estimulan su desarrollo integral.</p>
+                    <img src="./Img/img_enfoquepedagogico.png" alt="Niños jugando en el aula" class="content-block__image content-block__image--right">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--highlight">
+                <h2 class="content-block__title">Objetivos Principales</h2>
+                <div class="content-block__body">
+                    <ul class="objective-list">
+                        <li class="objective-list__item">
+                            <strong>Desarrollo motriz:</strong> Favorecer el control corporal y la coordinación a través de actividades físicas y juegos.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Estimulación cognitiva:</strong> Promover el pensamiento lógico, la curiosidad y la resolución de problemas simples.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Desarrollo socioemocional:</strong> Fomentar la expresión de emociones, el trabajo en equipo y la construcción de relaciones positivas.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Comunicación integral:</strong> Enriquecer el lenguaje oral e iniciar la aproximación al lenguaje escrito.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Nuestra Metodología</h2>
+                <div class="content-block__body">
+                    <p class="content-block__text">Basamos nuestro trabajo en principios pedagógicos modernos que respetan los ritmos individuales de aprendizaje:</p>
+                    
+                    <div class="methodology-section">
+                        <div class="methodology-item">
+                            <h3 class="methodology-item__title">Aprendizaje lúdico</h3>
+                            <p class="methodology-item__description">El juego es la principal estrategia de aprendizaje, permitiendo a los niños desarrollar habilidades mientras se divierten.</p>
+                        </div>
+                        
+                        <div class="methodology-item">
+                            <h3 class="methodology-item__title">Enfoque por proyectos</h3>
+                            <p class="methodology-item__description">Trabajamos con unidades temáticas que integran diversas áreas del conocimiento de manera natural.</p>
+                        </div>
+                        
+                        <div class="methodology-item">
+                            <h3 class="methodology-item__title">Ambientes preparados</h3>
+                            <p class="methodology-item__description">Nuestras aulas son espacios diseñados para estimular la exploración y el descubrimiento autónomo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--alternate">
+                <h2 class="content-block__title">Áreas de Desarrollo</h2>
+                <div class="development-areas">
+                    <div class="development-area">
+                        <h3 class="development-area__title">Desarrollo Personal y Social</h3>
+                        <ul class="development-list">
+                            <li>Autoconocimiento y autoestima</li>
+                            <li>Relaciones interpersonales</li>
+                            <li>Normas de convivencia</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="development-area">
+                        <h3 class="development-area__title">Lenguaje y Comunicación</h3>
+                        <ul class="development-list">
+                            <li>Expresión oral</li>
+                            <li>Iniciación a la lectoescritura</li>
+                            <li>Comprensión de cuentos y narraciones</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="development-area">
+                        <h3 class="development-area__title">Pensamiento Matemático</h3>
+                        <ul class="development-list">
+                            <li>Noción de número</li>
+                            <li>Formas y figuras</li>
+                            <li>Relaciones espaciales</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="development-area">
+                        <h3 class="development-area__title">Exploración del Mundo</h3>
+                        <ul class="development-list">
+                            <li>Ciencias naturales</li>
+                            <li>Cultura y sociedad</li>
+                            <li>Tecnología básica</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Actividades Cotidianas</h2>
+                <div class="activities-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-time">08:00 - 08:30</div>
+                        <div class="timeline-content">
+                            <h3>Rutina de Bienvenida</h3>
+                            <p>Saludo, reconocimiento del grupo y actividades de integración.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-time">08:30 - 09:30</div>
+                        <div class="timeline-content">
+                            <h3>Talleres Creativos</h3>
+                            <p>Pintura, modelado, música y expresión corporal para desarrollar la creatividad.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-time">09:30 - 10:15</div>
+                        <div class="timeline-content">
+                            <h3>Juegos Cooperativos</h3>
+                            <p>Actividades grupales que fomentan el trabajo en equipo y la resolución pacífica de conflictos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-time">10:15 - 10:45</div>
+                        <div class="timeline-content">
+                            <h3>Exploración Sensorial</h3>
+                            <p>Experiencias táctiles, olfativas, visuales y auditivas para estimular los sentidos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--highlight">
+                <h2 class="content-block__title">Participación Familiar</h2>
+                <div class="content-block__body">
+                    <p class="content-block__text">Consideramos fundamental la participación de las familias en el proceso educativo. Para ello:</p>
+                    <ul class="participation-list">
+                        <li>Realizamos talleres para padres sobre temas de desarrollo infantil</li>
+                        <li>Organizamos jornadas de puertas abiertas donde las familias pueden participar en actividades</li>
+                        <li>Mantenemos una comunicación constante a través de nuestra plataforma digital</li>
+                        <li>Celebramos eventos culturales donde los niños muestran sus aprendizajes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container, header, section, footer {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.grid-2cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-autofit {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.main-sidebar {
+    grid-template-columns: 3fr 1fr;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Primaria - Nivora</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link header__nav-link--active">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link header__dropdown-link--active">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main main--primaria">
+        <section class="hero hero--primaria">
+            <h1 class="hero__title">Educación Primaria</h1>
+            <p class="hero__subtitle">Formación integral con valores y pensamiento crítico</p>
+        </section>
+
+        <section class="primaria-content">
+            <div class="content-block">
+                <h2 class="content-block__title">Nuestra Propuesta Educativa</h2>
+                <div class="content-block__body">
+                    <div class="content-block__inner">
+                    <p class="content-block__text">En la etapa primaria (6 a 11 años) acompañamos el desarrollo de competencias fundamentales para el aprendizaje permanente, combinando excelencia académica con formación en valores.</p>
+                    <img src="./Img/img_enfoquepedagogico_primaria.png" alt="Niños en clase de primaria" class="content-block__image content-block__image--right">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--highlight">
+                <h2 class="content-block__title">Objetivos Clave</h2>
+                <div class="content-block__body">
+                    <ul class="objective-list">
+                        <li class="objective-list__item">
+                            <strong>Desarrollo cognitivo:</strong> Dominio de competencias básicas en lenguaje, matemáticas y ciencias.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Pensamiento crítico:</strong> Capacidad de análisis, síntesis y resolución de problemas.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Autonomía:</strong> Desarrollo de hábitos de estudio y responsabilidad personal.
+                        </li>
+                        <li class="objective-list__item">
+                            <strong>Convivencia:</strong> Respeto, cooperación y manejo positivo de relaciones interpersonales.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Enfoque Pedagógico</h2>
+                <div class="content-block__body">
+                    <div class="pedagogy-features">
+                        <div class="pedagogy-feature">
+                            <h3 class="pedagogy-feature__title">👩‍🏫 Educación Personalizada</h3>
+                            <p class="pedagogy-feature__description">Acompañamiento individualizado que respeta los ritmos de aprendizaje de cada estudiante.</p>
+                        </div>
+                        
+                        <div class="pedagogy-feature">
+                            <h3 class="pedagogy-feature__title">📚 Fomento Lector</h3>
+                            <p class="pedagogy-feature__description">Programa intensivo de lectura comprensiva y producción textual.</p>
+                        </div>
+                        
+                        <div class="pedagogy-feature">
+                            <h3 class="pedagogy-feature__title">🔬 Aprendizaje Basado en Proyectos</h3>
+                            <p class="pedagogy-feature__description">Metodología activa que integra diversas áreas del conocimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--alternate">
+                <h2 class="content-block__title">Áreas Académicas</h2>
+                <div class="academic-areas">
+                    <div class="academic-area">
+                        <h3 class="academic-area__title">Lenguaje y Comunicación</h3>
+                        <ul class="area-skills">
+                            <li>Comprensión lectora avanzada</li>
+                            <li>Producción de textos diversos</li>
+                            <li>Comunicación oral efectiva</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="academic-area">
+                        <h3 class="academic-area__title">Matemática</h3>
+                        <ul class="area-skills">
+                            <li>Operaciones matemáticas complejas</li>
+                            <li>Resolución de problemas</li>
+                            <li>Pensamiento lógico</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="academic-area">
+                        <h3 class="academic-area__title">Ciencias y Tecnología</h3>
+                        <ul class="area-skills">
+                            <li>Método científico</li>
+                            <li>Investigación escolar</li>
+                            <li>Tecnologías educativas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="academic-area">
+                        <h3 class="academic-area__title">Desarrollo Personal</h3>
+                        <ul class="area-skills">
+                            <li>Educación emocional</li>
+                            <li>Valores y ética</li>
+                            <li>Habilidades sociales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h2 class="content-block__title">Nuestro Día Típico</h2>
+                <div class="daily-schedule">
+                    <div class="schedule-item">
+                        <div class="schedule-time">08:00 - 08:30</div>
+                        <div class="schedule-activity">
+                            <h3>Actividades de Inicio</h3>
+                            <p>Rutinas matutinas y organización del día</p>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">08:30 - 10:00</div>
+                        <div class="schedule-activity">
+                            <h3>Área de Comunicación</h3>
+                            <p>Lectura, escritura y expresión oral</p>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:00 - 11:30</div>
+                        <div class="schedule-activity">
+                            <h3>Área de Matemática</h3>
+                            <p>Desarrollo de competencias matemáticas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">11:30 - 12:30</div>
+                        <div class="schedule-activity">
+                            <h3>Áreas Integradas</h3>
+                            <p>Ciencias, sociales o proyectos interdisciplinarios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block content-block--highlight">
+                <h2 class="content-block__title">Programas Complementarios</h2>
+                <div class="content-block__body">
+                    <ul class="program-list">
+                        <li><strong>Olimpiadas académicas:</strong> Participación en competencias de matemáticas y ciencias</li>
+                        <li><strong>Talleres artísticos:</strong> Música, teatro y artes plásticas</li>
+                        <li><strong>Deportes:</strong> Fútbol, básquet y atletismo</li>
+                        <li><strong>Tecnología educativa:</strong> Robótica y programación básica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script type="module" src="./js/formularios.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

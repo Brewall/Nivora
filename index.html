@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/image_logo_v2.png" type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/utilidades.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Nivora</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./Img/image_logo_v2.png" alt="Logo Nivora" class="header__logo-image">
+            <div class="header__logo-content">
+                <h1 class="header__title">Nivora</h1>
+                <p class="header__subtitle">Educación Integral para cada etapa del aprendizaje</p>
+            </div>
+        </div>
+
+        <button class="header__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+            <span class="header__hamburger-line"></span>
+        </button>
+        
+        <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Niveles</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Inicial.html" class="header__dropdown-link">Inicial</a></li>
+                        <li class="header__dropdown-item"><a href="./Primaria.html" class="header__dropdown-link">Primaria</a></li>
+                        <li class="header__dropdown-item"><a href="./Secundaria.html" class="header__dropdown-link">Secundaria</a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Servicios</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Idiomas.html" class="header__dropdown-link">Centro de Idiomas</a></li>
+                        <li class="header__dropdown-item"><a href="./Biblioteca.html" class="header__dropdown-link">Biblioteca</a></li>   
+                    </ul>
+                </li>
+
+                <li class="header__nav-item header__nav-item--has-dropdown">
+                    <a href="#" class="header__nav-link">Sobre Nosotros</a>
+                    <ul class="header__dropdown-menu">
+                        <li class="header__dropdown-item"><a href="./Mision.html" class="header__dropdown-link">Misión</a></li>
+                        <li class="header__dropdown-item"><a href="./Vision.html" class="header__dropdown-link">Visión</a></li>
+                        <li class="header__dropdown-item"><a href="./Historia.html" class="header__dropdown-link">Historia</a></li>
+                    </ul>
+                </li>
+
+                <li class="header__nav-item"><a href="./Blog.html" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="./Contacto.html" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="marquee-box">
+        <p class="marquee-text">📢 Matrículas abiertas para el año escolar 2026. ¡Inscríbete ya!</p>
+    </div>
+
+    <section class="carousel" role="region" aria-label="Carrusel de banners">
+        <div class="carousel__track">
+
+            <div class="carousel__slide" id="slide1">
+                <img class="carousel__image" src="./Img/img_salon_carrusel.jpg" alt="Niños aprendiendo en el aula de inicial">
+                <div class="carousel__content">
+                    <h2 class="carousel__title">Bienvenido</h2>
+                    <p class="carousel__description">Explora nuestros servicios y conoce más.</p>
+                    <a href="#seccion-informacion" class="carousel__button button button--primary">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="carousel__slide" id="slide2">
+                <img class="carousel__image" src="./Img/img_lab_carrusel.jpg" alt="Estudiantes en la biblioteca">
+                <div class="carousel__content">
+                    <h2 class="carousel__title">Nuestras Características</h2>
+                    <p class="carousel__description">Descubre porque elegirnos.</p>
+                    <a href="#servicios" class="carousel__button button button--primary">Ver Características</a>
+                </div>
+            </div>
+            
+            <div class="carousel__slide" id="slide3">
+                <img class="carousel__image" src="./Img/img_patio_escolar_carrusel.jpg" alt="Estudiantes en actividades extracurriculares">
+                <div class="carousel__content">
+                    <h2 class="carousel__title">Nuestras Recomendaciones</h2>
+                    <p class="carousel__description">Conoce porque estan satisfechos nuestros padres de familia.</p>
+                    <a href="#testimonios" class="carousel__button button button--primary">Ver Testimonios</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="carousel__controls">
+            <button class="carousel__control" aria-label="Ir a slide 1" data-slide="1">•</button>
+            <button class="carousel__control" aria-label="Ir a slide 2" data-slide="2">•</button>
+            <button class="carousel__control" aria-label="Ir a slide 3" data-slide="3">•</button>
+        </div>
+    </section>
+
+    <main class="main">
+
+        <section id="seccion-informacion" class="info-section" aria-labelledby="modelo-educativo">
+            <div class="content-block">
+                <h2 id="modelo-educativo" class="content-block__title">Formamos personas con valores y visión de futuro</h2>
+                <p class="content-block__subtitle">Descubre nuestro modelo educativo para cada etapa</p>
+                
+                <div class="education-model">
+                    <div class="education-stage">
+                        <div class="stage-content">
+                            <h3 class="stage-content__title">Educación Inicial</h3>
+                            <p class="stage-content__description">Desarrollo integral a través del juego y la exploración para niños de 3 a 5 años.</p>
+                            <a href="inicial.html" class="button button--secondary">Conoce más</a>
+                        </div>
+                        <img src="./Img/img_inicial_clase.jpg" alt="Niños en educación inicial" class="stage-content__image">
+                    </div>
+                    
+                    <div class="education-stage">
+                        <div class="stage-content">
+                            <h3 class="stage-content__title">Educación Primaria</h3>
+                            <p class="stage-content__description">Formación de competencias básicas y desarrollo del pensamiento crítico de 1° a 6° grado.</p>
+                            <a href="primaria.html" class="button button--secondary">Conoce más</a>
+                        </div>
+                        <img src="./Img/img_primaria_clase.png" alt="Niños en educación primaria" class="stage-content__image">
+                    </div>
+                    
+                    <div class="education-stage">
+                        <div class="stage-content">
+                            <h3 class="stage-content__title">Educación Secundaria</h3>
+                            <p class="stage-content__description">Preparación para la vida universitaria y profesional de 1° a 5° año.</p>
+                            <a href="secundaria.html" class="button button--secondary">Conoce más</a>
+                        </div>
+                        <img src="./Img/img_secundaria_clase.jpg" alt="Jóvenes en educación secundaria" class="stage-content__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services" aria-labelledby="porque-elegirnos">
+            <div class="content-block content-block--highlight">
+                <h2 id="porque-elegirnos" class="content-block__title">¿Por qué elegirnos?</h2>
+                <p class="content-block__text">Ofrecemos una educación moderna, inclusiva y con visión global. ¡Inscríbete hoy!</p>
+                
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature__icon">🎯</div>
+                        <h3 class="feature__title">Educación Personalizada</h3>
+                        <p class="feature__description">Atención individualizada según necesidades de cada estudiante con seguimiento psicopedagógico.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">🏫</div>
+                        <h3 class="feature__title">Infraestructura Moderna</h3>
+                        <p class="feature__description">Ambientes diseñados para potenciar el aprendizaje con laboratorios, biblioteca y áreas deportivas.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">👩‍🏫</div>
+                        <h3 class="feature__title">Profesores Calificados</h3>
+                        <p class="feature__description">Docentes con amplia experiencia y constante capacitación en metodologías innovadoras.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">🌐</div>
+                        <h3 class="feature__title">Visión Global</h3>
+                        <p class="feature__description">Programas de intercambio cultural y dominio del inglés como segunda lengua.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">❤️</div>
+                        <h3 class="feature__title">Formación en Valores</h3>
+                        <p class="feature__description">Programa de educación emocional y desarrollo del carácter basado en principios éticos.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">🚀</div>
+                        <h3 class="feature__title">Tecnología Educativa</h3>
+                        <p class="feature__description">Integración de herramientas digitales en el proceso de enseñanza-aprendizaje.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="testimonials" aria-labelledby="testimonios-title">
+            <div class="content-block">
+                <h2 id="testimonios-title" class="content-block__title">Lo que dicen nuestras familias</h2>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"El cambio en mi hijo desde que ingresó a Nivora ha sido increíble. Ahora ama ir al colegio y está más seguro de sí mismo."</p>
+                            <div class="testimonial__author">
+                                <img src="./Img/img_male_1.png" alt="Padre de familia" class="testimonial__photo">
+                                <div>
+                                    <p class="testimonial__name">Carlos Mendoza</p>
+                                    <p class="testimonial__relation">Padre de 3er grado</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"La preparación académica que recibió mi hija en secundaria la hizo destacar en la universidad desde el primer día."</p>
+                            <div class="testimonial__author">
+                                <img src="./Img/img_female_3.png" alt="Madre de familia" class="testimonial__photo">
+                                <div>
+                                    <p class="testimonial__name">María Fernández</p>
+                                    <p class="testimonial__relation">Madre de exalumna</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="floating-video">
+            <video controls loop autoplay muted playsinline>
+                <source src="video/video_colegio.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__section">
+                <h3 class="footer__section-title">Nuestras Redes Sociales</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="footer__social-link footer__social-link--facebook">
+                            <i class="fa-brands fa-facebook" style="color: #0084ff;"></i> Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="footer__social-link footer__social-link--instagram">
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="footer__social-link footer__social-link--youtube">
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i> YouTube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Legal</h3>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-item">
+                        <a href="./libro-reclamaciones.html" class="footer__legal-link">
+                           <i class="fa-solid fa-book-open" style="color: #ffffff;"></i> Libro de Reclamaciones</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__section-title">Ubícanos</h3>
+                <div class="footer__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.8466407816481!2d-71.5374513708412!3d-16.40904743039419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424ad6fa9f6f99%3A0x7e67b6d04521891b!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1713718403582!5m2!1ses!2spe"  
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa de ubicación de Nivora"
+                        class="footer__map-iframe">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">&copy;2025 Centro Educativo Nivora</p>
+        </div>
+    </footer>
+    <script type="module" src="./js/modals.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/Carrusel.js"></script>
+    <script src="./js/video.js"></script>
+</body>
+</html>

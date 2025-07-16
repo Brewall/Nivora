@@ -1,0 +1,27 @@
+
+/* Espaciado */
+.gap-0 { gap: 0; }
+.gap-1 { gap: 0.5rem; }
+.gap-2 { gap: 1rem; }
+.gap-3 { gap: 1.5rem; }
+.gap-4 { gap: 2rem; }
+
+/* Margin */
+.m-0 { margin: 0; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+
+/* Padding */
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+.py-3 { padding: 1.5rem 0; }
+
+/* Flexbox */
+.flex-column { flex-direction: column; }
+.justify-center { justify-content: center; }
+.align-start { align-items: flex-start; }
+
+/* Efectos */
+.shadow-sm { box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.rounded-md { border-radius: 8px; }

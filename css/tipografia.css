@@ -1,0 +1,27 @@
+:root {
+    --font-title: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-title);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}

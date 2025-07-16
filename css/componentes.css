@@ -2054,3 +2054,19 @@
     height: auto;
     display: block;
 }
+
+.modal-body {
+    max-height: 60vh;  /* Ajusta según lo que necesites */
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Scroll visible y estilizado (opcional) */
+.modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}

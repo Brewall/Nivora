@@ -1,3 +1,4 @@
+console.log("blog.js cargado correctamente");
 document.addEventListener('DOMContentLoaded', function() {
     const allPosts = Array.from(document.querySelectorAll('.blog-post'));
     const paginationContainer = document.querySelector('.blog-pagination');

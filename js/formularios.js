@@ -1,3 +1,4 @@
+console.log("formularios.js cargado correctamente");
 import { showModal } from './modals.js';
 
 const FORM_CONFIG = {

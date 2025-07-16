@@ -1,3 +1,4 @@
+console.log("modals.js cargado correctamente");
 /**
  * Muestra un modal personalizado en la pantalla
  * @param {string} title - Título del modal

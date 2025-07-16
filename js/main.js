@@ -1,3 +1,4 @@
+console.log("main.js cargado correctamente");
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.getElementById('hamburger');
     const nav = document.getElementById('nav');

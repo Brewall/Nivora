@@ -1,3 +1,4 @@
+console.log("carrusel.js cargado correctamente");
 document.addEventListener('DOMContentLoaded', function() {
     const carouselTrack = document.querySelector('.carousel__track');
     const slides = document.querySelectorAll('.carousel__slide');

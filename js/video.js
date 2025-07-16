@@ -1,3 +1,4 @@
+console.log("video.js cargado correctamente");
 document.addEventListener('DOMContentLoaded', function() {
     const floatingVideo = document.querySelector('.floating-video');
     let isDragging = false;
